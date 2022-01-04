@@ -1,5 +1,6 @@
 # Problem 1: If we list all natural numbers below 10 that are multiples of 3 or 5, we get 3,5,6, and 9. The sum of these multiples is 23
 #Find the sum of all multiples of 3 or 5 below N
+
 n = int(input("Enter value: ")) # user input asking for a value to compute. typecasted as integer data type
 
 a = (n - 1) // 3 # For variables a,b, and c, we have n - 1 because we the sum BELOW N and not including N.
